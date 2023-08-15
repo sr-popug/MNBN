@@ -1,0 +1,66 @@
+.nav-menu {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-size: calc(var(--index) * 5);
+}
+.logo > p {
+    font-size: 30px;
+}
+.info-grid {
+    display: block;
+}
+.block-info-img {
+    display: grid;
+    justify-content: center;
+}
+.img-info > img {
+    width: 80vw;
+    height: 80vh;
+}
+.grid-element {
+    position: relative;
+    padding-top: calc(var(--index) * 7);
+    width: 80vw;
+}
+
+.gradient {
+    bottom: calc(var(--index) * -22);
+}
+.number {
+    bottom: calc(var(--index) * -7);
+    left: calc(var(--index) * -10);
+    font-size: 150px;
+}
+.info > p {
+    font-size: calc(var(--index) * 1.5);
+    line-height: calc(var(--index) * 2.5);
+}
+.info > h2 {
+    font-size: calc(var(--index) * 3.5);
+}
+.info-grid {
+    padding-bottom: calc(var(--index) * 2);
+}
+
+footer {
+    display: block;
+}
+.footer-column-3 {
+    display: none;
+}
+.footer-column-1 {
+    width: 60vw;
+}
+.footer-column-2 > h3 {
+    font-size: calc(var(--index) * 2.5);
+    line-height: calc(var(--index) * 7)
+}
+.footer-column-2 > ul > li > a {
+    font-size: calc(var(--index) * 1.5);
+    line-height: calc(var(--index) * 4);
+}
